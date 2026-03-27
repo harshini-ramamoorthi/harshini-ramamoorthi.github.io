@@ -2,7 +2,7 @@
 
 🚀 Full Stack Developer | Java | PHP | MySQL  
 
-Welcome to my personal portfolio website showcasing my projects, skills, and experience in full-stack development.
+Welcome to my portfolio website showcasing my projects, skills in full-stack development.
 
 ---
 
@@ -54,7 +54,6 @@ portfolio/
 ## 📬 Contact
 
 - LinkedIn: https://www.linkedin.com/in/harshini-ramamoorthi-212072376
-- Email: harshinir3407@gmail.com  
 
 ---
 
