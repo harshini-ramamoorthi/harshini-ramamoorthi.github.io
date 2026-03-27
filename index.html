@@ -1957,17 +1957,20 @@ textarea.form-input { resize: vertical; min-height: 120px; }
     });
 
     // ── Form Submit ───────────────────────────────
-    // function handleFormSubmit() {
-    //   const name = document.getElementById('name').value.trim();
-    //   const email = document.getElementById('email').value.trim();
-    //   const subject = document.getElementById('subject').value.trim();
-    //   const message = document.getElementById('message').value.trim();
+    function handleFormSubmit() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value.trim();
+      const message = document.getElementById('message').value.trim();
 
-    //   if (!name || !email || !message) {
-    //     alert('Please fill in Name, Email, and Message.');
-    //     return;
-    //   }
+      if (!name || !email || !message) {
+        alert('Please fill in Name, Email, and Message.');
+        return;
+      }
 
+     const mailto = `mailto:harshinir3407@gmail.com?subject=${encodeURIComponent(subject || 'Message from Portfolio')}&body=${encodeURIComponent(`Hi Harshini,\n\nName: ${name}\nEmail: ${email}\n\n${message}`)}`;
+      window.location.href = mailto;
+    }
      
     // ── Active nav link on scroll ─────────────────
     const sections = document.querySelectorAll('section[id]');
