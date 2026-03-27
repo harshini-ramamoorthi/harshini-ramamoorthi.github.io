@@ -7,7 +7,7 @@ Welcome to my personal portfolio website showcasing my projects, skills, and exp
 ---
 
 ## 🌐 Live Website
-👉 https://harshini-ramamoorthi.github.io/portfolio/
+👉 https://harshini-ramamoorthi.github.io/
 
 ---
 
